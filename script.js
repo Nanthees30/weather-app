@@ -38,7 +38,7 @@ async function getWeather() {
 
        const data = await response.json();
        document.getElementById("weather-info").innerHTML = `
-           <h3 style="color: #AC1754;">${data.name}, ${data.sys.country}</h3>
+           <h3 style="color:rgb(177, 21, 86);">${data.name}, ${data.sys.country}</h3>
            <p style="color: #3674B5;">Temperature: ${data.main.temp}°C</p>
            <p style="color: #3674B5;">Weather Report: ${data.weather[0].description}</p>
        `;
