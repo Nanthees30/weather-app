@@ -1,0 +1,44 @@
+body {
+   font-family: Arial, sans-serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background: url("https://images.unsplash.com/photo-1527482797697-8795b05a13fe?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.container {
+   text-align: center;
+   background: white;
+   padding: 60px;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+   color: #AC1754;
+}
+
+#Bharathi {
+  color: Gray;
+}
+
+input {
+   padding: 10px;
+   margin: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+}
+
+button {
+   padding: 10px 20px;
+   border: none;
+   background: blue;
+   color: white;
+   cursor: pointer;
+   border-radius: 5px;
+}
+
+button:hover {
+   background: darkblue;
+}
